@@ -1,0 +1,65 @@
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "gilroy"
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+} 
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+#panel{
+   width: 400px;
+   height: 80px;
+   background-color: #333;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border-radius:15px ;
+   box-shadow: 0 20px 30px rgba(0,0,0,0.4);
+   /* width height blur  */
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.icon i{
+    opacity: 0.4;
+}
+
+#first i{
+    opacity: 1;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+h2{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
